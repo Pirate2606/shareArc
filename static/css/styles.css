@@ -1,0 +1,670 @@
+.navbar-links {
+    font-size: 20px;
+}
+
+.navbar-background {
+    background-color: #041C32;
+}
+
+.get-in-touch {
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.get-in-touch .title {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 3.2em;
+    line-height: 48px;
+    padding-bottom: 48px;
+    color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left, #f4524d 0%, #5543ca 100%) !important;
+    background: -webkit-linear-gradient(
+            left,
+            #f4524d 0%,
+            #5543ca 100%
+    ) !important;
+    background: linear-gradient(to right, #f4524d 0%, #5543ca 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+    position: relative;
+    margin: 32px 0;
+}
+
+.contact-form .input-text {
+    display: block;
+    width: 100%;
+    height: 36px;
+    border-width: 0 0 2px 0;
+    border-color: #5543ca;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+    outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+    -webkit-transform: translateY(-24px);
+    transform: translateY(-24px);
+}
+
+.contact-form .label {
+    position: absolute;
+    left: 20px;
+    bottom: 11px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+    cursor: text;
+    transition: -webkit-transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+.description {
+    left: 20px;
+    bottom: 11px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #5543ca;
+}
+
+.card-padding {
+    padding-top: 0 !important;
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    background-color: #000;
+    background-image: linear-gradient(125deg, #a72879, #064497);
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+}
+
+.mdl-textfield:not(.is-dirty) input::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input:focus::-webkit-datetime-edit {
+    color: rgba(255, 255, 255, 0.46) !important;
+}
+
+/*DRAG AND DROP INPUT*/
+
+.files input {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    padding: 80px 0px 105px 35%;
+    text-align: center !important;
+    margin: 0;
+    width: 100% !important;
+}
+
+.files input:focus {
+    outline: 2px dashed #92b0b3;
+    outline-offset: -10px;
+    -webkit-transition: outline-offset 0.15s ease-in-out,
+    background-color 0.15s linear;
+    transition: outline-offset 0.15s ease-in-out, background-color 0.15s linear;
+    border: 1px solid #92b0b3;
+}
+
+.files {
+    position: relative;
+}
+
+.files:after {
+    pointer-events: none;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 50px;
+    right: 0;
+    height: 56px;
+    content: "";
+    background-image: url(https://image.flaticon.com/icons/png/128/109/109612.png);
+    display: block;
+    margin: 0 auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.color input {
+    background-color: #f1f1f1;
+}
+
+.files:before {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    pointer-events: none;
+    width: 100%;
+    right: 0;
+    height: 57px;
+    content: " or drag it here. ";
+    display: block;
+    margin: 0 auto;
+    color: #2ea591;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.file-upload-box {
+    position: relative;
+    bottom: 70px;
+}
+
+/*DRAG AND DROP INPUT*/
+
+
+/* REGISTRATION FORM STARTS */
+
+.register {
+    background: -webkit-linear-gradient(left, #f8913e, #ffc77e);
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.register-left {
+    text-align: center;
+    color: #fff;
+    margin-top: 4%;
+}
+
+.register-left input {
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    width: 60%;
+    background: #f8f9fa;
+    font-weight: bold;
+    color: #383d41;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    cursor: pointer;
+}
+
+.register-right {
+    background: #f8f9fa;
+    border-top-left-radius: 10% 50%;
+    border-bottom-left-radius: 10% 50%;
+}
+
+.register-left img {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    width: 25%;
+    -webkit-animation: mover 2s infinite alternate;
+    animation: mover 1s infinite alternate;
+}
+
+@-webkit-keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes mover {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.register-left p {
+    font-weight: lighter;
+    padding: 12%;
+    margin-top: -9%;
+}
+
+.register .register-form {
+    padding: 10%;
+    margin-top: 10%;
+}
+
+.btnRegister {
+    float: right;
+    margin-top: 10%;
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: #09f;
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+}
+
+.btnRegister:hover {
+    background: #0084FF;
+}
+
+.register .nav-tabs {
+    margin-top: 3%;
+    border: none;
+    background: #0062cc;
+    border-radius: 1.5rem;
+    width: 28%;
+    float: right;
+}
+
+.register .nav-tabs .nav-link {
+    padding: 2%;
+    height: 34px;
+    font-weight: 600;
+    color: #fff;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+}
+
+.register .nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.register .nav-tabs .nav-link.active {
+    width: 100px;
+    color: #0062cc;
+    border: 2px solid #0062cc;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.register-heading {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: -15%;
+    color: #495057;
+}
+
+/* REGISTER-CONTEST PAGE */
+
+input[type=datetime-local]:required:invalid::-webkit-datetime-edit {
+    color: transparent !important;
+}
+
+
+input[type=datetime-local]:focus::-webkit-datetime-edit {
+    color: black !important;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+/* CUSTOM BUTTON MEDIA QUERY */
+
+
+/* CUSTOM NAVBAR MEDIA QUERY */
+#preview-page {
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff)
+}
+
+.font-robo {
+    font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+
+.row-space {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.col-2 {
+    width: -webkit-calc((100% - 60px) / 2);
+    width: -moz-calc((100% - 60px) / 2);
+    width: calc((100% - 60px) / 2);
+}
+
+.profile-edit-btn:hover {
+    border: none;
+    background-color: #e4e2e2d2;
+}
+
+@media (max-width: 767px) {
+    .col-2 {
+        width: 100%;
+    }
+}
+
+.emp-profile {
+    padding: 3%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+
+.profile-img {
+    text-align: center;
+}
+
+.profile-img img {
+    width: 70%;
+    height: 100%;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+
+.profile-head h5 {
+    color: #333;
+}
+
+.profile-head h6 {
+    color: #0062cc;
+}
+
+.profile-edit-btn {
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+
+.proile-rating {
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+
+.proile-rating span {
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profile-head .nav-tabs {
+    margin-bottom: 5%;
+}
+
+.profile-head .nav-tabs .nav-link {
+    font-weight: 600;
+    border: none;
+}
+
+.profile-head .nav-tabs .nav-link.active {
+    border: none;
+    border-bottom: 2px solid #0062cc;
+}
+
+.profile-work {
+    padding: 14%;
+    margin-top: -15%;
+}
+
+.profile-work p {
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.profile-work a {
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.profile-work ul {
+    list-style: none;
+}
+
+.profile-tab label {
+    font-weight: 600;
+}
+
+.profile-tab p {
+    font-weight: 600;
+    color: #0062cc;
+}
+
+@media (max-width: 992px) {
+    .profile-edit-btn {
+        width: 100%;
+    }
+}
+
+.file-input-update {
+    color: transparent;
+    outline: none;
+    width: 200px;
+    padding-top: 15px;
+}
+
+.file-input-update::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.file-input-update::before {
+    content: 'Change Image';
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.file-input-update:hover::before {
+    border-color: black;
+}
+
+.file-input-update:active {
+    outline: 0;
+}
+
+.file-input-update:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.profile-rating {
+    font-size: 18px;
+    color: #818182;
+}
+
+.profile-rating span {
+    color: #495057;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* CONTACT US PAGE STARTS */
+
+.contact-us-form {
+    background:#B1D0E0;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    width: 70%;
+    border-radius: 20px;
+}
+
+@media (max-width: 992px) {
+    .contact-us-form {
+        margin-top: 10%;
+        margin-bottom: 5%;
+        width: 90%;
+        border-radius: 20px;
+    }
+}
+
+.contact-us-form .form-control {
+    border-radius: 1rem;
+}
+
+.contact-image {
+    text-align: center;
+}
+
+.contact-image img {
+    width: 120px;
+    margin-top: -3%;
+}
+
+.contact-us-form form {
+    padding: 11%;
+}
+
+.contact-us-form form .row {
+    margin-bottom: -7%;
+}
+
+.contact-us-form h3 {
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: #252628;
+}
+
+.contact-us-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #1A374D;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContact:hover {
+    background: #406882;
+}
+
+@media (max-width: 992px) {
+    .btnContact {
+        width: 100% !important;
+    }
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+/* CONTACT US PAGE ENDS */
+
+.about-heading {
+    color: #041C32;
+}
+
+.categoryButton {
+    width: 20%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #1A374D;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.categoryButton:hover {
+    background: #406882;
+}
+
+.card-title {
+    color: #1A374D;
+}
+
+.card-header {
+    background-color: #b1d0e099;
+}
+
+.card-footer {
+    background-color: #b1d0e099;
+    border: none;
+}
+
+.card-title {
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #22577A;
+}
+
+.card-separator {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.contentButton {
+    background: #1572A1;
+    width: 20%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.1%;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contentButton:hover {
+    background: #9AD0EC;
+}
